@@ -19,6 +19,7 @@ card {
     -webkit-box-shadow: -8px 9px 10px -5px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: -8px 9px 10px -5px rgba(0, 0, 0, 0.5);
     box-shadow: -8px 9px 10px -5px rgba(0, 0, 0, 0.5);
+    
 }
 
 .rightContent {
@@ -26,6 +27,9 @@ card {
     flex-direction: column;
     margin-left: 15px;
     justify-content: space-around;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
 }
 
 .cardImg {
