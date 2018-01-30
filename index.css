@@ -60,6 +60,7 @@ divider {
     cursor: pointer;
     transition: .64s;
     font-weight: 600;
+    background-color: white;
 }
 
 .detailsButton:hover {
